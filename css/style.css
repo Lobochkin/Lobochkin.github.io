@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: black;
+  background-color: white;
+  width: 900px;
+}
+
+.example {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+input {
+  border-radius: 5px;
+}
+
+.example div,
+.example input {
+  margin-right: 2px;
+  padding: 2px;
+}
+
+.input-field {
+  display: flex;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-field input,
+.input-field div,
+.example input {
+  width: 15px;
+}
+
+.input-field input,
+.input-field div {
+  position: absolute;
+}
+
+canvas {
+  background-image: url(../img/sprite.png);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+}
